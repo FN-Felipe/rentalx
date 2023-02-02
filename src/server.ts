@@ -11,4 +11,4 @@ app.use(express.json())
 app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerFile))
 app.use(router)
 
-app.listen(3333, () => console.log("Server is running!"))  
+app.listen(4333, () => console.log("Server is running!"))  
